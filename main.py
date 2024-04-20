@@ -32,4 +32,8 @@ async def root():
 
 @app.get('/ping')
 async def hello():
+<<<<<<< HEAD
     return {'res': 'pong', 'version': __version__, "time": time()}
+=======
+    return {'res': 'pong', 'version': __version__, "time": time()}
+>>>>>>> d402474fc60ccd04123e1dc42d3a908461090a35
